@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "singularName": "location",
+    "pluralName": "locations",
+    "displayName": "locations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "locationAddress": {
+      "type": "string"
+    },
+    "locationOwner": {
+      "type": "string"
+    },
+    "locationEmail": {
+      "type": "email"
+    },
+    "locationPhone": {
+      "type": "biginteger"
+    },
+    "locationOpened": {
+      "type": "date"
+    }
+  }
+}
