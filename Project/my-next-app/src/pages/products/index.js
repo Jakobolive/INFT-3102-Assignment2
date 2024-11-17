@@ -40,6 +40,7 @@ export default function Products({ productsList }) {
       </Head>
       <main className={styles.main}>
         <h3>Check Out Our Products Below!</h3>
+        <p>Below we will showcase our top selling products that are Available at our many locations.</p>
         {/* Pagination Controls */}
         <div className="pagination">
             <button onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
@@ -60,6 +61,7 @@ export default function Products({ productsList }) {
                 <h3 className="data-price">Price: {prod.productPrice}</h3>
                 <h3 className="data-stock">Available: {prod.productStock}</h3>
                 <p className="data-description">{prod.productDescription}</p>
+                <a href={`/products/${prod.id}`}>View Item</a>
               </div>
             </div>
           ))}
