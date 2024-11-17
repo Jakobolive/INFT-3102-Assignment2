@@ -52,9 +52,14 @@ my-next-app/
 
 ## Steps
 
-1. **Clone the repository** via GitHub.
-
-2. **Install dependencies**:
+1. **Clone the repository**:
+2. 
+   ```bash
+   git clone https://github.com/Jakobolive/INFT-3102-Assignment2.git
+   cd my-next-app
+   ```
+   
+3. **Install dependencies**:
 
    ```bash
    npm install
@@ -120,13 +125,16 @@ To deploy the app, follow these steps:
 ```bash
 npm start
 ```
-# Or 
+## Or 
 ```bash
 npm run dev
 ```
-## To open the Strapi instance:
+## To create and open the Strapi instance:
 
 ```bash
+cd project
+npx create-strapi-app@latest my-project --quickstart
+
 cd project/my-strapi-app
 npm run develop
-
+```
