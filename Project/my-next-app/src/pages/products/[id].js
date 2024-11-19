@@ -11,7 +11,7 @@ export default function ProductDetail() {
   useEffect(() => {
     if (id) {
       // Construct the API URL with the dynamic product ID
-      const apiUrl = `http://localhost:1337/api/products?filters[id][$eq]=${id}`;
+      const apiUrl = `http://localhost:1337/api/products?filters[id][$eq]=${id}&populate=productImage`;
 
       // Fetch product details based on product ID
       fetch(apiUrl)
@@ -44,11 +44,7 @@ export default function ProductDetail() {
       <h1>Product Details for: {product.productName}</h1>
       <div className="data-details">
         <img
-          src={
-            product?.productImage?.formats?.thumbnail?.url
-              ? `http://localhost:1337${product.productImage.formats.thumbnail.url}`
-              : '/fallback-image.jpg' // Fallback if no image is available
-          }
+          src={`http://localhost:1337${product?.productImage?.formats?.thumbnail?.url}`}
           alt={product?.productName || 'Product Image'}
           className="data-image"
         />

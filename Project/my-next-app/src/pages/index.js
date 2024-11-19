@@ -11,10 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <main className={styles.main}>
-          <h2>Hopefully I will be able to implement a search bar theory using the following code: <code>IDK WHAT YET</code> to search through the
-          products as well as the locations</h2>
+          <h2>Homepage Including Assignment Requirements</h2>
           <br />
-          <h3>Assignment Requirements - Will Be Removed Once They Are Accomplished</h3>
+          <h3>Assignment Requirements</h3>
           <ol>
             <li>API Interaction - Demonstrate fetching content from a Headless CMS via RESTful APIs.</li>
             <li>Content Modeling - Structure content types and fields within the Headless CMS to fit the needs of the SSG.</li>

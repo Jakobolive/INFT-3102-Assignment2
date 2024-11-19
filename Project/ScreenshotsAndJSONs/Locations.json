@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "documentId": "v5qdvl2s604t6yn1pxakd8ab",
+            "locationAddress": "164 Champlain Ave, Whitby",
+            "locationOwner": "Jack Highland",
+            "locationEmail": "jackhigh@gmail.com",
+            "locationPhone": "1112223333",
+            "locationOpened": "2021-11-17",
+            "createdAt": "2024-11-15T18:56:28.383Z",
+            "updatedAt": "2024-11-15T18:56:28.383Z",
+            "publishedAt": "2024-11-15T18:56:28.432Z"
+        },
+        {
+            "id": 4,
+            "documentId": "i16npw4la13d7jgtqu8dpeja",
+            "locationAddress": "102 Centennial St, Newfoundland",
+            "locationOwner": "James Jones",
+            "locationEmail": "email@email.com",
+            "locationPhone": "2223334444",
+            "locationOpened": "2024-11-05",
+            "createdAt": "2024-11-15T18:57:42.137Z",
+            "updatedAt": "2024-11-15T18:57:42.137Z",
+            "publishedAt": "2024-11-15T18:57:42.152Z"
+        },
+        {
+            "id": 6,
+            "documentId": "qkcv0jn7nf27y8c7u0ekok8z",
+            "locationAddress": "80 Eglin St North, Oshawa",
+            "locationOwner": "Jones Jacklyn",
+            "locationEmail": "80elgin@gmail.com",
+            "locationPhone": "9998887777",
+            "locationOpened": "2022-11-23",
+            "createdAt": "2024-11-15T18:58:33.077Z",
+            "updatedAt": "2024-11-15T18:58:33.077Z",
+            "publishedAt": "2024-11-15T18:58:33.104Z"
+        },
+        {
+            "id": 8,
+            "documentId": "mbzfbowv82702wtuxpwgqono",
+            "locationAddress": "200 Ste. Marie St, Sudbury",
+            "locationOwner": "Gilbert Grape",
+            "locationEmail": "suds23@gmail.com",
+            "locationPhone": "8887770040",
+            "locationOpened": "2024-10-30",
+            "createdAt": "2024-11-15T19:00:29.985Z",
+            "updatedAt": "2024-11-15T19:00:29.985Z",
+            "publishedAt": "2024-11-15T19:00:30.006Z"
+        },
+        {
+            "id": 10,
+            "documentId": "qfxc3bf5r7zk79y9mos0hhhx",
+            "locationAddress": "321 New St, Oakdale",
+            "locationOwner": "Donald Duckworth",
+            "locationEmail": "donduck@gmail.com",
+            "locationPhone": "2223333",
+            "locationOpened": "2024-10-26",
+            "createdAt": "2024-11-15T19:01:20.175Z",
+            "updatedAt": "2024-11-15T19:01:20.175Z",
+            "publishedAt": "2024-11-15T19:01:20.201Z"
+        },
+        {
+            "id": 12,
+            "documentId": "gggs5o01o9gb9ol1lzmu4mc4",
+            "locationAddress": "223 Kettle Point Rd, Kettle Point",
+            "locationOwner": "John Cena",
+            "locationEmail": "jc@gmail.ca",
+            "locationPhone": "4445551832",
+            "locationOpened": "2024-10-31",
+            "createdAt": "2024-11-15T19:04:53.689Z",
+            "updatedAt": "2024-11-15T19:04:53.689Z",
+            "publishedAt": "2024-11-15T19:04:53.711Z"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 6
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "id": 4,
+            "documentId": "fp019qik7v6b18itxkixcu94",
+            "serviceName": "Service 2",
+            "serviceDesc": "Service 2 Description",
+            "servicePrice": 200.01,
+            "serviceContact": "donduck@gmail.com",
+            "serviceAvailable": true,
+            "createdAt": "2024-11-15T19:05:49.656Z",
+            "updatedAt": "2024-11-15T19:05:49.656Z",
+            "publishedAt": "2024-11-15T19:05:49.668Z"
+        },
+        {
+            "id": 6,
+            "documentId": "spfzzl23hqjr7v5a0dju4icz",
+            "serviceName": "Service 3",
+            "serviceDesc": "Service 3 Description",
+            "servicePrice": 56.03,
+            "serviceContact": "jackhigh@gmail.com",
+            "serviceAvailable": true,
+            "createdAt": "2024-11-15T19:06:35.083Z",
+            "updatedAt": "2024-11-15T19:06:35.083Z",
+            "publishedAt": "2024-11-15T19:06:35.113Z"
+        },
+        {
+            "id": 8,
+            "documentId": "btl865tqm2it5c611mjrzr3r",
+            "serviceName": "Service 4",
+            "serviceDesc": "Service 4 Description",
+            "servicePrice": 21.21,
+            "serviceContact": "jjj@dcmail.ca",
+            "serviceAvailable": true,
+            "createdAt": "2024-11-15T19:07:04.148Z",
+            "updatedAt": "2024-11-15T19:07:04.148Z",
+            "publishedAt": "2024-11-15T19:07:04.157Z"
+        },
+        {
+            "id": 10,
+            "documentId": "gb5hvowolgqx13u6gufhbuvc",
+            "serviceName": "Service 5",
+            "serviceDesc": "Service 5 Description.",
+            "servicePrice": 21.21,
+            "serviceContact": "jdoe@dcmail.ca",
+            "serviceAvailable": false,
+            "createdAt": "2024-11-15T19:07:36.113Z",
+            "updatedAt": "2024-11-15T19:07:36.113Z",
+            "publishedAt": "2024-11-15T19:07:36.145Z"
+        },
+        {
+            "id": 12,
+            "documentId": "vs9o3v7fre69b48w5twl5g2y",
+            "serviceName": "Service 6",
+            "serviceDesc": "Service 6 Description.",
+            "servicePrice": 55.99,
+            "serviceContact": "jackhigh@gmail.com",
+            "serviceAvailable": true,
+            "createdAt": "2024-11-15T19:08:09.618Z",
+            "updatedAt": "2024-11-15T19:08:09.618Z",
+            "publishedAt": "2024-11-15T19:08:09.630Z"
+        },
+        {
+            "id": 13,
+            "documentId": "ixjq9zybz8whour05jwc6c6z",
+            "serviceName": "Service 1",
+            "serviceDesc": "Service 1 Description.",
+            "servicePrice": 600,
+            "serviceContact": "jc@gmail.ca",
+            "serviceAvailable": false,
+            "createdAt": "2024-11-15T19:05:25.664Z",
+            "updatedAt": "2024-11-15T20:12:29.988Z",
+            "publishedAt": "2024-11-15T20:12:30.015Z"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 6
+        }
+    }
+}
