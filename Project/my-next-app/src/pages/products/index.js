@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
-//import { fetchProductsList } from "../api/products";
 import handler from "../api/products";
 
 export async function getStaticProps() {

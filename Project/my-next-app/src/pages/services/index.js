@@ -1,10 +1,10 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
-import { fetchServicesList } from "../../lib/strapi"
+import handler from "../api/services";
 
 export async function getStaticProps() {
-    const servicesList = await fetchServicesList();
+    const servicesList = await handler();
     return {
         props: { servicesList }
     }
