@@ -1,5 +1,5 @@
 # Next.js App with Strapi Headless CMS
-
+## Updated From Assignment #2
 This project is a Next.js application that integrates with a Strapi headless CMS to manage and display data for Products, Locations, and Services on dedicated pages.
 This project features serverless funtions to make connections between the frontend and the Strapi CMS backend.
 
@@ -25,10 +25,13 @@ my-next-app/
 │   ├── header/
 │   │   └── header.js 
 │   └── style/
-│       └── styles.css
-├── lib/
-│   └── strapi.js    
+│       └── styles.css    
 ├── pages/
+│   ├── api/
+│   │   ├── hello.js
+│   │   ├── locations.js
+│   │   ├── products.js
+│   |   └── services.js
 │   ├── products/
 │   │   ├── index.js
 │   │   ├── [id].js
