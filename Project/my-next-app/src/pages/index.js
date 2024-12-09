@@ -15,11 +15,10 @@ export default function Home() {
           <br />
           <h3>Assignment Requirements</h3>
           <ol>
-            <li>API Interaction - Demonstrate fetching content from a Headless CMS via RESTful APIs.</li>
-            <li>Content Modeling - Structure content types and fields within the Headless CMS to fit the needs of the SSG.</li>
-            <li>Data Fetching - Implement fetching strategies for data, build-time, depending on the project's needs.</li>
-            <li>Optional for Nextjs CSS Framework Template Design - Leverage modern CSS frameworks like bootstrap, material design to render dynamic content from the Headless CMS.</li>
-            <li>Optional Pagination & Filtering - Implement dynamic features like pagination, filtering, and search functionalities that leverage Headless CMS content.</li>
+            <li>Serverless Functions: You'll write serverless functions using JavaScript or TypeScript. These functions handle backend logic and can interact with APIs, databases, or other services.</li>
+            <li>Asynchronous Programming: Managing asynchronous requests and responses, such as fetching data or processing user input..</li>
+            <li>Dynamic Content Handling: Incorporating dynamic content fetched by serverless functions into your static site</li>
+            <li>State Management: Managing state in your application, especially when dealing with content that changes based on user interaction or external data.</li>
           </ol>
         </main>
     </>

@@ -1,7 +1,7 @@
 export default function Header(){
   return (
       <>
-      <h1>INFT-3102 Assignment #2 Website</h1>
+      <h1>INFT-3102 Assignment #3 Website</h1>
       <nav class="navbar">
           <ul class="menu">
             <li class="menu-item"><a href="/">Home</a></li>

@@ -1,10 +1,11 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
-import { fetchProductsList } from "../../lib/strapi";
+//import { fetchProductsList } from "../api/products";
+import handler from "../api/products";
 
 export async function getStaticProps() {
-  const productsList = await fetchProductsList();
+  const productsList = await handler();
   return {
     props: { productsList }
   };
